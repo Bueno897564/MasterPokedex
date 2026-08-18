@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "br.com.curso.masterpokedex"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.com.curso.masterpokedex"
@@ -64,4 +64,6 @@ dependencies {
 
     // Coil: carregador assíncrono de imagens para Jetpack Compose
     implementation ("io.coil-kt:coil-compose:2.6.0")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
 }
