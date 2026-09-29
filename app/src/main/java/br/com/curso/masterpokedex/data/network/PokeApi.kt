@@ -26,7 +26,7 @@ data class SpriteResponse(
 
 // 2. O GARÇOM (Retrofit Interface)
 interface PokeApiService {
-    @GET("pokemon?limit=20")
+    @GET("pokemon?limit=2048")
     suspend fun getList(): PokemonListResponse
 
     @GET("pokemon/{name}")
